@@ -1,0 +1,18 @@
+$block: '.signUpForm';
+
+#{$block} {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 8px;
+
+    * {
+        width: 100%;
+    }
+}
+
+.g-text-input__additional-content {
+    width: fit-content;
+}

@@ -1,0 +1,18 @@
+html,
+body,
+#root {
+    height: 100%;
+    min-width: 320px;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box; 
+}
+
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

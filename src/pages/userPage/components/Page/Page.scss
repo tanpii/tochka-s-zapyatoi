@@ -1,0 +1,17 @@
+$block: '.userPage';
+
+#{$block} {
+    width: 100%;
+    min-height: 85vh;
+    padding: 40px 15vw;
+    display: flex;
+    flex-flow: row;
+    gap: 100px;
+
+    &__userInfo {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        gap: 20px;
+    }
+}

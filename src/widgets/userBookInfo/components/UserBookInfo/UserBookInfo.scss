@@ -1,0 +1,34 @@
+$block: '.userBookInfo';
+
+#{$block} {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    gap: 80px;
+
+    &__readingNow {
+        display: flex;
+        flex-flow: column;
+        gap: 20px;
+    }
+
+    &__readingNowBook {
+        display: flex;
+        flex-flow: row;
+        gap: 20px;
+    }
+
+    &__bookHistory {
+        display: flex;
+        flex-flow: column;
+        gap: 20px;
+    }
+
+    &__bookList{
+        width: fit-content;
+        padding: 20px 2px;
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+}

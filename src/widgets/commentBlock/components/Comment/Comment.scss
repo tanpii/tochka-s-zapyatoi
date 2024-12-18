@@ -1,0 +1,14 @@
+$block: '.comment';
+
+#{$block} {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    gap: 8px;
+
+    &__commentHeader {
+        display: flex;
+        flex-flow: row;
+        gap: 20px;
+    }
+}

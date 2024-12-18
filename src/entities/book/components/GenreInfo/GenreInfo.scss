@@ -1,0 +1,29 @@
+$block: '.genreInfo';
+
+#{$block} {
+	&__tooltip{
+		width: 220px;
+		display: flex;
+		flex-flow: row;
+		gap: 10px;
+		align-items: center;
+	}
+
+	&__infoContainer {
+		flex-grow: 1;
+		display: flex;
+		flex-flow: column;
+	}
+
+	&__info {
+		width: 100%;
+		text-align: center;
+	}
+
+	&__infoLabel {
+		width: 100%;
+		* {
+			cursor: default !important;
+		}
+	}
+}

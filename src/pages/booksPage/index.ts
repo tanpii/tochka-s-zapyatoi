@@ -1,0 +1,1 @@
+export { Page as BooksPage } from './components/Page/Page';

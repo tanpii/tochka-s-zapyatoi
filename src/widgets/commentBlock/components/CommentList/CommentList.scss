@@ -1,0 +1,8 @@
+$block: '.commentList';
+
+#{$block} {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    gap: 40px;
+}

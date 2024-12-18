@@ -1,0 +1,1 @@
+export { Page as CabinetPage } from './components/Page/Page';

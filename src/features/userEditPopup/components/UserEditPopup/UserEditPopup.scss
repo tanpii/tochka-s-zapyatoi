@@ -1,0 +1,28 @@
+$block: '.userEditPopup';
+
+#{$block} {
+    width: 400px;
+    padding: 40px;
+    display: flex;
+    flex-flow: column;
+    align-items: stretch;
+    gap: 8px;
+
+
+    &__form {
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        gap: 8px;
+
+        * {
+            width: 100%;
+        }
+    }
+}
+
+.g-text-input__additional-content {
+    width: fit-content;
+}
+

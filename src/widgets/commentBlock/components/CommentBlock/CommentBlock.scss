@@ -1,0 +1,13 @@
+$block: '.commentBlock';
+
+#{$block} {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 40px;
+
+    &__header {
+        width: 100%;
+        text-align: start;
+    }
+}

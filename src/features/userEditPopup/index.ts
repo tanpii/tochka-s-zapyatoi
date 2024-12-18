@@ -1,0 +1,1 @@
+export {UserEditPopup} from './components/UserEditPopup/UserEditPopup';

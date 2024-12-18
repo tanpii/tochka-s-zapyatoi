@@ -1,0 +1,31 @@
+$block: '.bookOverview';
+
+#{$block} {
+    display: flex;
+    flex-flow: row;
+    align-items: stretch;
+    gap: 40px;
+
+    &__bookName {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        gap: 10px;
+    }
+
+    &__bookImage {
+        width: 400px;
+        border-radius: var(--g-border-radius-l);
+    }
+
+    &__bookInfo {
+        display: flex;
+        flex-flow: column;
+        align-items: start;
+        gap: 20px;
+    }
+
+    &__rentBlock {
+        margin-top: auto;
+    }
+}

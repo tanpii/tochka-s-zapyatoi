@@ -1,0 +1,20 @@
+$block: '.commentForm';
+
+#{$block} {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+
+    &__block {
+        width: 100%;
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        gap: 10px;
+    }
+
+    &__submitButton {
+        margin-left: auto;
+    }
+}

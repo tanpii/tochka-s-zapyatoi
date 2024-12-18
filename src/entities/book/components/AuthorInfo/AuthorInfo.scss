@@ -1,0 +1,41 @@
+$block: '.authorInfo';
+
+#{$block} {
+	&__tooltip{
+		width: 220px;
+		display: flex;
+		flex-flow: row;
+		gap: 10px;
+		align-items: center;
+	}
+
+	&__imgContainer {
+		flex-shrink: 0;
+		position: relative;
+		overflow: hidden;
+		width: 80px; 
+		height: 80px;
+		border-radius: 50%;
+	}
+	
+	&__img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	&__infoContainer {
+		flex-grow: 1;
+		display: flex;
+		flex-flow: column;
+	}
+
+	&__info {
+		width: 100%;
+		text-align: center;
+	}
+
+	&__infoLabel {
+		width: 100%;
+	}
+}

@@ -1,0 +1,15 @@
+$block: '.bookActions';
+
+#{$block} {
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+    gap: 20px;
+
+    &__rentButton {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        gap: 40px;
+    }
+}
